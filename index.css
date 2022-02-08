@@ -63,6 +63,7 @@ a{
 #container-header{
     height: 15vh;
     width: 100vw;
+    background-color: #FFF;
     display: flex;
     align-items: center;
 }
@@ -102,27 +103,126 @@ a{
 #button-nav{
     background: #ec368d;
     color: #FFF;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0rem 1.8rem;
-    padding: .5rem 1.4rem;
+    padding: .5rem 1.3rem;
     border: 0px;
     border-radius: 18px;
+    text-transform: uppercase;
 }
 
 
 /* Estilizado main */
 
 #container-main{
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#hero-main{
+/* main izquierda */
+
+#main-left{
     height: 100%;
-    width: 100%;
-    object-fit: cover;
+    width: 55%;
+    display: flex;
+    padding: 5em 0 0 5em;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
+#main-heading-crypto{
+    font-family: "Poppins Bold";
+    text-transform: uppercase;
+    color: #F2F2F2;
+    font-size: 5em;
+    letter-spacing: 4px;
+}
+
+#main-heading-container{
+    margin-top: 1em;
+    padding: 0 0 2em 2.5em;
+    border-left: 13px solid #ec368d;
+}
+
+#main-heading{
+    width: 70%;
+    line-height: 1.1em;
+    font-family: "Poppins SemiBold";
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+
+#main-paragraph{
+    margin-top: .5em;
+    font-size: 1.2em;
+    font-family: "Poppins Medium";
+    color: #727272;
+    text-transform: capitalize;
+}
+
+#main-span{
+    font-family: "Poppins Medium";
+    font-size: 1.8em;
+    margin-left: 1.8em;
+}
+
+#main-btn{
+    font-family: "Poppins Medium";
+    background: #ec368d;
+    color: #FFF;
+    font-size: 1.2em;
+    margin: 1.6em 2.8em;
+    padding: .9em 3em;
+    border: 0px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+/* main derecha */
+
+#main-right{
+    height: 75%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 2em;
+    padding-bottom: 1em;
+    background-color: #ec368d;
+    border-radius: 25px 0 0 25px;
+}
+
+#main-hero{
+    margin: 2em 0 0 4em;
+    height: 110%;
+    width: auto;
+}
+
+#container-socialmedia{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-line-socialmedia{
+    width: 40%;
+    margin: .8em 0 0 4em;
+    border-top: 2px solid #b2b2b2;
+}
+
+#main-socialmedia{
+    padding-right: 2em;
+    align-self: flex-end;
+}
+
+.main-social{
+    padding: 0 2em;
+}
 /* Estilizado primer artículo */
 
 #container-first-art{
