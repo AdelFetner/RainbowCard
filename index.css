@@ -378,85 +378,52 @@ a{
     position: absolute;
     transform: translate(50%, 10%);
 }
+
 /* Estilizando tecer artículo */
 
 #container-third-art{
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0rem 6rem;
-    margin-bottom: 5rem;
-}
-
-#third-art-up{
-    height: 30%;
-    width: 100%;
-}
-
-#third-art-down{
-    height: 70%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    margin-left: 1em;
-}
-
-.article-third-art{
-    height: 100%;
-    width: 48%;
-}
-
-.third-art-img{
-    height: 70%;
-    width: 100%;
-    object-fit: cover;
-}
-
-div#third-art-up > span{
-    font-weight: bold;
-}
-
-#third-art-heading{
-    font-size: 2rem;
-    padding: 1rem 0rem;
-}
-
-.span-third-art{
-    font-weight: bold;
-    font-size: .8rem;
-}
-
-.third-art-heading{
-    font-size: 1.2rem;
-    margin: 1rem 0rem;
-}
-
-.paragraph-third-art{
-    font-size: .9rem;
-}
-
-.user-pic{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
-
-.article-info-container{
-    display: flex;
     align-items: center;
-    margin-top: 2rem;
 }
 
-.user-name{
-    font-weight: bold;
+#heading-third-art{
+    color: #ec368d;
+    margin: 1em auto;
+    font-size: 3rem;
 }
 
+#cards-third-art{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
 
-.article-info{
-    margin-left: 1rem;
+.card-third-article{
+    height: 100%;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 0;
+    border-radius: 18px;
+    box-shadow: 0 0 8px 2px #F2F2F2;
+}
+
+.card-heading-third-art{
+    font-family: "Poppins Bold";
+    width: 90%;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #ec368d;
+    text-transform: uppercase;
 }
 
 /* Estilizado footer */
