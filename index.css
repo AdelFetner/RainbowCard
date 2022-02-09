@@ -214,8 +214,6 @@ a{
     height: 100%;
     width: auto;
     transform: scale(1.5) translate(18%, 10%);
-    width: auto;
-    overflow: hidden;
 }
 
 #container-socialmedia{
@@ -319,40 +317,67 @@ a{
         align-items: center;
 }
 
+/* segundo artículo izquierda */
+
 #second-art-left{
     height: 100%;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 5rem;
+    padding-left: 3rem;
 }
 
-#second-art-left section{
-    margin: 2rem;
+.second-art-card{
+    margin: 1.7rem 2rem;
+}
+
+.dot{
+    height: 12px;
+    width: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot + .dot{
+    margin-left: .6rem;
 }
 
 .heading-second-art{
+    font-family: "Poppins SemiBold";
     font-size: 1.5rem;
 }
 
 .paragraph-second-art{
-    padding: 1.2rem 0rem;
-}
-
-#placeholder-second{
-    padding: 0rem 5rem;
-    width: 50%;
-    height: 75%;
-    object-fit: cover;
-}
-
-.second-art-btn{
+    font-family: "Poppins Regular";
     font-size: 1rem;
-    border: 0px solid;
-    background-color: transparent;
+    line-height: 1.3rem;
+    color: #4e4e4e;
 }
 
+/* segundo artículo derecha */
+
+#second-art-right{
+    height: 100%;
+    width: 50%;
+}
+
+#card-second{
+    height: 100%;
+    width: auto;
+    transform: scale(.85) translate(20%, 5%);
+    width: auto;
+    overflow: hidden;
+}
+
+#second-art-circle{
+    height: 90%;
+    width: 50%;
+    background-color: #ec368d;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(50%, 10%);
+}
 /* Estilizando tecer artículo */
 
 #container-third-art{
