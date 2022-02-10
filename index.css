@@ -465,7 +465,7 @@ a{
 #container-footer{
     height: 45vh;
     width: 100%;
-    margin-bottom: 5vh;
+    padding-bottom: 5vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -480,7 +480,7 @@ a{
 }
 
 .first-container-footer{
-    height: 50%;
+    height: 100%;
     justify-content: space-around;
 }
 
@@ -498,6 +498,11 @@ a{
 
 .first-link{
     text-transform: uppercase;
+}
+
+#madefrom{
+    margin-top: 5rem;
+    color: #4e4e4e;
 }
 
 /* Media queries */
