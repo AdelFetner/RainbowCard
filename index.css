@@ -374,6 +374,9 @@ a{
     transform: scale(.85) translate(20%, 5%);
     width: auto;
     overflow: hidden;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 #second-art-circle{
@@ -431,6 +434,12 @@ a{
     text-align: center;
     color: #ec368d;
     text-transform: uppercase;
+}
+
+.card-img-third-art{
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 /* estilizando cuarto article */
