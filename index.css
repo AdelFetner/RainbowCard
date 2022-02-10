@@ -149,6 +149,9 @@ a{
     color: #F2F2F2;
     font-size: 5em;
     letter-spacing: 4px;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 #main-heading-container{
@@ -214,6 +217,9 @@ a{
     height: 100%;
     width: auto;
     transform: scale(1.5) translate(18%, 10%);
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 #container-socialmedia{
@@ -382,8 +388,9 @@ a{
 /* Estilizando tecer artículo */
 
 #container-third-art{
-    height: 70vh;
+    height: 100vh;
     width: 100%;
+    margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -426,73 +433,72 @@ a{
     text-transform: uppercase;
 }
 
-/* Estilizado footer */
+/* estilizando cuarto article */
 
-#container-footer{
+/* #container-fourth-art{
     height: 30vh;
     width: 100%;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    background-color: #ec368d;
+    border-top: 1px solid black;
 }
 
-#footer-top{
-    height: 60%;
+#fourth-art-left{
+    height: 100%;
+    width: 60%;
+}
+
+#fourth-art-right{
+    height: 100%;
+    width: 40%;
+}
+
+#phone-fourth-art{
+    height: 100%;
     width: 100%;
+    transform: scale(2.3) translate(-10%, 0%) skew(10deg, -10deg);;
+    margin-top: 5em;
+} */
+
+/* Estilizado footer */
+
+#container-footer{
+    height: 45vh;
+    width: 100%;
+    margin-bottom: 5vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-#logo-footer{
+.footer-third{
     height: 100%;
-    width: 5%;
-    margin-left: 5rem;
-}
-
-#footer-nav-container{
-    height: 100%;
-    width: 80%;
+    width: 20%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#footer-nav-container a{
-    margin-left: 3rem;
+.first-container-footer{
+    height: 50%;
+    justify-content: space-around;
 }
 
-#container-footer-media{
-    height: 100%;
-    width: 15%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.footer-heading{
+    font-family: "Poppins SemiBold";
+    font-size: 1.2rem;
+    color: #575757;
+    text-transform: uppercase;
 }
 
-#container-footer-media img{
-    padding-left: 1rem;
+.footer-link{
+    font-family: "Poppins Regular";
+    color: #757575;
 }
 
-#footer-bottom{
-    height: 40%;
-    width: 50%;
-    border-top: 1px solid #000;
-    padding-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.first-link{
+    text-transform: uppercase;
 }
-
-.link-footer{
-    text-decoration: underline;
-    margin-left: 2rem;
-}
-.link-footer:hover{
-    text-decoration: none;
-}
-
-
 
 /* Media queries */
 
