@@ -517,7 +517,61 @@ a{
 /* Media queries */
 
 @media (max-width: 1024px){
+    #main-heading-crypto{
+        font-size: 3.5rem;
+    }
+
+    #main-left{
+        padding: 3.5em 0 0 3.5em;
+    }
+
+    #main-heading{
+        font-size: 2.2rem;
+    }
+
+    #main-paragraph{
+        font-size: 1.2rem;
+    }
+
+    #main-span{
+        font-size: 1.3rem;
+        margin-left: 3.3rem;
+    }
     
+    #main-btn{
+        padding: .6em 2em;
+    }
+
+    #container-hero{
+        margin-top: 1.5rem  ;
+        height: 65%;
+    }
+
+    #main-hero{
+        transform: scale(1.6) translate(11%, 6%);
+    }
+
+    .main-social{
+        padding: 0 1em;
+    }
+
+    #main-line-socialmedia{
+        width: 50%;
+        margin-left: 1em;
+    }
+    
+    #first-art-right{
+        padding-left: 4.5rem;
+    }
+
+    #second-art-circle{
+        height: 80%;
+        transform: translate(60%, 10%);
+    }
+
+    #card-second{
+        transform: scale(.78) translate(15%, 0%);
+    }
 }
 
 @media (max-width: 768px){ 
