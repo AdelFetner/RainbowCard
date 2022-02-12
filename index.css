@@ -517,6 +517,10 @@ a{
 /* Media queries */
 
 @media (max-width: 1024px){
+    #logo-header{
+        width: 15%;
+    }
+
     #main-heading-crypto{
         font-size: 3.5rem;
     }
@@ -575,11 +579,103 @@ a{
 }
 
 @media (max-width: 768px){ 
+    .nav-link{
+        margin: 0 1rem;
+    }
     
+    #container-nav{
+        padding: 0;
+    }
+
+    #button-nav{
+        margin: 0 1rem;
+    }
+
+    #logo-header{
+        width: 20%;
+    }
+
+    #main-left{
+        padding: 3.5em 0 0 1.5em;
+    }
+
+    #main-heading-crypto{
+        font-size: 2.8rem;
+    }
+
+    #main-heading{
+        font-size: 1.8rem;
+    }
+
+    #main-paragraph{
+        font-size: 1rem;
+        width: 70%;
+    }
+
+    #main-span{
+        font-size: 1.3rem;
+        margin-left: 3.3rem;
+    }
+    
+    #main-btn{
+        padding: .6em 1.2em;
+    }
+
+    #container-hero{
+        margin-top: 1.5rem  ;
+        height: 60%;
+    }
+
+    #main-hero{
+        transform: scale(1.55) translate(6%, 6%);
+    }
+
+    .main-social{
+        padding: 0 .5em;
+    }
+
+    #main-line-socialmedia{
+        width: 40%;
+        margin-left: 1em;
+    }
+
+
+    #hero-heading{
+        margin-left: 5.5rem;
+    }
+
+    #first-art-right{
+        padding-left: 3rem;
+    }
+
+    #sign-up-btn{
+        padding: .8rem 1.6rem;
+    }
+
+    #first-art-paragraph{
+        font-size: .6rem;
+    }
+
+    #second-art-circle{
+        height: 70%;
+        transform: translate(60%, 30%);
+    }
+
+    #card-second{
+        transform: scale(.65) translate(-8%, 17%);
+    }
+
+    .first-container-footer{
+        margin-top: 3rem;
+    }
+    
+    #lucho{
+        display: none;
+    }
 }
 
 @media (max-width: 425px){
-    
+
 }
 
 @media (max-width: 375px){
