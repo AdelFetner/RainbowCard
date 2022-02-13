@@ -290,6 +290,7 @@ a{
     width: 50%;
     border: 0;
     border-bottom: 2px solid #d0d0d0;
+    outline: none;
 }
 
 #sign-up-btn{
@@ -679,12 +680,21 @@ a{
 }
 
 @media (max-width: 425px){
+    #menu-phone{
+        height: 1.7rem;
+        width: 1.7rem;
+        display: block;
+        margin-right: 2rem;
+    }
+
     .nav-link{
         margin: 0 1rem;
     }
     
     #container-header{
         height: 10vh;
+        flex-direction: row-reverse;
+        justify-content: space-between;
     }
 
     #container-nav{
